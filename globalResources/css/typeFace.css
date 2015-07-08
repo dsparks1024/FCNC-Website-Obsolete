@@ -1,0 +1,18 @@
+*{
+	font-family: arial;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+	font-weight: bold;
+	color: #00759f;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}

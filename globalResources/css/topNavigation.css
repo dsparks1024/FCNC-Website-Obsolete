@@ -1,0 +1,194 @@
+.topNav.wrapper{
+	padding-top: 20px;
+	height: 135px;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+.navi.bg {
+	height: 60px;
+	width: 100%;
+	background: maroon;
+	box-shadow: 0px 0px 13px 1px black;
+	position: absolute;
+	top:50px;
+	z-index: -10;
+}
+
+.naviAccent{
+	height: 2px;
+	width: 100%;
+	background: white;
+}
+
+.naviAccent.top {
+	position: absolute;
+	top: 5px;
+}
+
+.naviAccent.bottom {
+	position: absolute;
+	bottom: 5px;
+}
+
+.topNav.logo{
+	height: 130px;
+	width: 325px;
+	box-shadow: 0px 0px 75px -10px white;
+	float: left;
+	position: relative;
+	z-index: 2;
+}
+
+.topNav.controls{
+	width: 985px;
+	height: 180px;
+	margin: auto;
+}
+
+.topNav.leftContainer{
+	height: 100px;
+	width: 325px;
+	float: left;
+	
+}
+
+.topNav.rightContainer{
+	float: left;
+	height: 100px;
+	width: 325px;
+}
+
+
+.bottomNav.wrapper{
+	position: fixed;
+	bottom: -26px;
+	height: 135px;
+	width: 100%;
+}
+
+.navi.bg.bottom{
+	position: relative;
+	z-index: 1;
+}
+
+.navi.bottom.controls{
+	height: 100px;
+	width: 400px;
+	margin: auto;
+}
+
+
+/* Actual Link Styling */
+
+ul.navi{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.navi.list{
+	position: absolute;
+	top: 50px;
+}
+
+.navi.list a{
+	font-family: 'Marcellus SC', serif;
+	font-weight: 200;
+	color: white;
+	text-decoration: none;
+	font-size:16pt;
+	padding:5px;
+	height: 60px;
+	line-height: 50px;
+	display:block;
+}
+
+.navi.list li{
+	float: left;
+	margin-left: 25px;
+	position: relative;
+}
+
+.navi.list a:hover{
+	color: #fff8d5;
+	text-decoration: underline;
+}
+
+navi.bottom.controls ul{
+	position: absolute;
+	top: 0px;
+}
+
+/* Bottom Nav Styling */
+ul.navi.list.bottom{
+	top:0px;	
+	list-style: none;
+}
+
+
+/* Pop up Navigation */
+
+.navi.subMenu.container{
+	position: absolute;
+	top: 59px;
+	z-index: 100;
+	background: white;
+	width: 475px;
+	padding: 15px 5px 15px 5px;
+	border-radius: 5px;
+	border: thin solid black;
+	display: none;
+}
+
+.navi.callout{
+	height: 15px;
+	width: 29px;
+	background: url(../media/calloutUp) no-repeat;
+	position: absolute;
+	bottom:10px;
+	left: 45%;
+	z-index: 101;
+	display: none;
+}
+
+
+ul.subNavList{
+	float: left;
+	width: 200px;
+	padding-left: 25px;
+}
+
+.navi.subNav.divider{
+	width: 1px;
+	height: 75%;
+	background: black;
+	position: absolute;
+	left: 50%;
+}
+
+.navi.subNavList a{
+	font-size: 12pt;
+	color: #005c71;
+	font-weight: 500;
+	height: 10px;
+	line-height: 10px;
+	font-family: arial;
+}
+
+.navi.subNavList a:hover{
+	color: #003743;
+	text-decoration: underline;
+}
+
+.navi.subNavList h4{
+	font-family: 'Marcellus SC', serif;
+	font-size: 13pt;
+	font-weight: 600;
+}
+
+.navi.list li:hover div.callout, .navi.list li:hover .navi.subMenu.container{
+	display: block;
+}
+

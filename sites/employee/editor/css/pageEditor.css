@@ -1,0 +1,68 @@
+/* CSS Document */
+
+.category{
+	float: left;
+	padding-left: 15px;
+}
+.category > span{
+	color: #0066af;
+	cursor: pointer;
+}
+.category > span:hover{
+	color: #005490;
+	text-decoration: underline;
+}
+
+
+/* Style the layout buttons */
+#layoutContainer > img{
+	border: thin solid black;
+	border-radius: 5px;
+	padding-left: 20px;
+}
+#layoutContainer > img:hover{
+	cursor: pointer;
+	background: #d9d9d9;
+}
+
+.advancedSettings{
+	display: none;
+	text-align: right;
+}
+.advancedSettings input{
+	text-align: left;
+}
+
+
+
+
+
+#editorContainer{
+	margin-top: 75px;
+}
+
+#pageLayout{
+	height: 100px;
+	width: 100px;
+}
+
+#imageEditorContainer{
+	min-width: 800px;
+	max-width: 960px;
+	height: 300px;
+	border: thin solid black;
+}
+
+#editorContainer{
+	width: auto;
+	height: 100%;
+}
+
+
+/* New Stuff 1/28/14 */
+
+
+/* Styling the editable page links */
+.pageLinkContainer ul{
+	display: inline-block;
+}

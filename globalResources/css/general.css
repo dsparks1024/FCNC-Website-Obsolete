@@ -1,0 +1,41 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	min-width: 1000px;
+}
+
+a img{
+	border: none;
+}
+
+.clear{
+	clear:both;
+}
+
+#copyright{
+	margin-top: 54px;
+	text-align:center;
+	font-size: 10pt;
+}
+
+.form h3{
+	text-align: center;
+	width: 250px;
+	margin:auto;
+	background: #920000;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+	border-radius: 5px;
+	padding:3px;
+	border: thin solid black;
+	box-shadow: 1px 2px 4px black;
+	margin-top: 15px;
+}
+
+.form form{
+	margin-top: 25px;
+}
+
+#passwordHelp{
+	height: 20px;
+}

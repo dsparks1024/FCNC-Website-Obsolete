@@ -1,0 +1,132 @@
+/* CSS Document */
+
+/* Fixed Footer Styling */
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+#body {
+   padding-bottom:90px;   /* Height of the footer ... enough to give some padding between content and footer*/
+   padding-top: 25px;
+   margin: auto;
+   max-width: 1200px;
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:80px;   /* Height of the footer */
+}
+
+/* Page Structure */
+
+body { 
+	background:url(../media/background.png);
+}
+		
+#header {
+	background: url(../media/headerBG.png);	
+	height: 220px;
+}
+
+#content{
+	background: white;
+	width: 80%;
+	margin: auto;
+	padding:0px 0px 50px 0px;
+	background: -webkit-linear-gradient(#ffffff 90%, rgba(255,255,255,0) 100%);
+	border-left: thin solid #d5d5d5;
+	border-right: thin solid #d5d5d5;
+	border-top: thin solid #d5d5d5;
+	border-radius: 10px;
+	padding: 5px 5px 50px 5px;
+	position: relative;
+	/*border: thin solid black;
+	box-shadow: 2px 5px 5px gray;*/
+}
+
+#footer{
+	background: #464646 url(../media/footerDivider.png) repeat-x;
+	color: #f8f8f8;
+	text-shadow: 1px -1px 1px black;
+}
+
+/* End Page Structuring  */
+
+#leftNav{
+	width: 23%;
+	margin-top:25px;
+	margin-left: 15px;
+	background: white;
+	border-radius: 10px;
+	box-shadow: 0px -8px 5px -3px #323232;
+	z-index: 100;
+	position: absolute;
+}
+
+
+#leftNav h3{
+	font-family: 'Marcellus SC', serif;
+	margin-left: -10px;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+#leftNav ul{
+	list-style: none;
+	font-size: 13pt;
+	margin-left: 15px;
+}
+
+#leftNav ul ul{
+	margin: 0px 0px 0px 5px;
+	font-size: 10pt;
+}
+
+#pageContent{
+	width:73%;
+	margin-top: 10px;
+	float: right;
+}
+
+
+#headImage{
+	height: 300px;
+	width: 100%;
+	position: relative;
+}
+
+#headImageText{
+	position: absolute;
+	height: 75px;
+	width: 98%;
+	padding: 0px 1% 0px 1%;
+	background: rgba(70,70,70,0.6);
+	top: 0px;
+	left: 0px;
+	text-align: right;
+	line-height: 75px;
+	font-size: 28pt;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+}
+
+#tourForm{
+	margin-top: 10px;
+	background: #fcfcfc;
+	border: thin solid black;
+}
+
+#tourForm h3{
+	margin-bottom: 20px;
+}
+
+

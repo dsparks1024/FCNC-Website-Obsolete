@@ -1,0 +1,46 @@
+body{
+	background: url(../media/nh.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+#loginForm{
+	width: 375px;
+	margin: auto;
+	height: auto;
+	background: white;
+	position: relative;
+	z-index: 999;
+	padding: 15px 0px 0px 0px;
+	border-radius: 10px;
+	background: #f9f9f9;
+	margin-top: 5%;
+	display: none;
+}
+
+#loginForm form{
+	margin-top: 20px;
+	margin-left: -40px;
+}
+
+#loginForm .form-actions{
+	background: transparent;
+	border: none;
+	margin-top:-20px;
+}
+
+#loginForm .form-actions button{
+	margin-left: 5px;
+}
+
+#loginForm h3{
+	text-align: center;
+	width: 250px;
+	margin:auto;
+	background: #920000;
+	color: white;
+	text-shadow: 2px 2px 3px black;
+	border-radius: 5px;
+	padding:3px;
+	border: thin solid black;
+	box-shadow: 1px 2px 4px black;
+}
